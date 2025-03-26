@@ -1,6 +1,12 @@
-# 🧠 Student Depression Prediction App
+# Student Depression Prediction App
 
-A machine learning web application built using **Streamlit** that predicts whether a student is likely suffering from depression based on their lifestyle factors and academic background.
+## Introduction
+
+Mental health issues among students have become a growing concern in recent years. With academic pressure, career uncertainty, and lifestyle challenges, students are increasingly vulnerable to stress, anxiety, and depression.
+
+This project — Student Depression Prediction App — aims to leverage the power of Machine Learning to predict whether a student is likely to suffer from depression based on their demographic, academic, and lifestyle information.
+
+The goal is to build a simple yet impactful tool that can assist educators, counselors, and health professionals in early detection and preventive care. This is not a diagnostic tool, but a data-driven support system to raise awareness and prompt further conversation.
 
 This project includes:
 
@@ -10,7 +16,7 @@ This project includes:
 
 ---
 
-## 🚀 Features
+## Features
 
 - User-friendly form for input
 - Predicts if a person is likely depressed or not
@@ -19,7 +25,7 @@ This project includes:
 
 ---
 
-## 📊 Tech Stack
+## Tech Stack
 
 - **Python**
 - **Scikit-learn**, **Pandas**, **Joblib**
@@ -28,9 +34,9 @@ This project includes:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1. 🔑 Environment Setup
+### 1. Environment Setup
 
 Create a `.env` file in the root directory with the following:
 
@@ -40,23 +46,24 @@ MONGO_COLLECTION = "mongodb database table or collecction name"
 
 ---
 
-### 2. 🐍 Install Dependencies
+### 2. Install Dependencies
 
 pip install -r requirements.txt
 
 ---
 
-### 3. ▶️ Run the App Locally
+### 3. Run the App Locally
 
 streamlit run app.py
 
-## 📤 MongoDB Integration
+## MongoDB Integration
 
+Fetch the whole data for training from database for each user input so it is dynamic.
 The app saves each prediction in MongoDB Atlas.
 
 ---
 
-## ✨ Future Improvements
+## Future Improvements
 
 - Visualize prediction statistics
 - Model monitoring dashboard
@@ -64,13 +71,13 @@ The app saves each prediction in MongoDB Atlas.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 This project is part of an end-to-end data science portfolio showcasing ML deployment, data engineering, and UI development.
 
 ---
 
-## 📫 Contact
+## Contact
 
 **Author**: Shushil Shah  
 **LinkedIn**: htpps://linkedin.com/in/shushilshah
